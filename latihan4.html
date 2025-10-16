@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV Sederhana - Mahasiswa Baru</title>
+  <style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      color: #0f172a;
+  }
+
+  header {
+      background-color: #2563eb;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+
+  nav a:hover {
+      text-decoration: underline;
+  }
+
+  /* Layout menggunakan float */
+  main {
+      margin: 20px;
+      overflow: auto;
+  }
+
+  section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+
+  #konten {
+      float: left;
+      width: 65%;
+  }
+
+  #sidebar {
+      float: right;
+      width: 30%;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+  }
+
+  footer {
+      clear: both;
+      background: #0f172a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  h2 {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 4px;
+  }
+
+  .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      border-radius: 8px;
+      padding: 3px 8px;
+      font-size: 12px;
+      margin-right: 5px;
+  }
+
+  .frame {
+      width: 100%;
+      height: 200px;
+      border: 0;
+      border-radius: 6px;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <h1>Curriculum Vitale</h1>
+  <p>Askiri Saipul Alam 
+   S.kom. MM. M.Ah Lc. Ma.</p>
+  <nav>
+    <a href="#profil">
+      profil</a>
+    <a href="#pendidikan">
+      pendidikan</a>
+    <a href="#kemampuan">
+      kemampuan</a>
+    <a href="#kontak">
+      kontak</a>
+  </nav>
+  </header>
+  
+  <main>
+    <div id="konten">
+      <section id="profil">
+        <h2>profil</h2>
+        <p>Hai! saya 
+        <strong>Askiri Saipul Alam</strong>, 
+        Mahasiswa baru yang tertarik pada <em>
+        web development </em>. Saya sedang
+        mempelajari HTML, CSS, dan Framework 
+        Laravel</p>
+      </section>
+      
+      <section id="pendidikan">
+        <h2>pendidikan</h2>
+        <p><strong>SDN LONTAR 2 </strong>-kec.kemiri kab.tangerang banten (2012 
+        - 2018)</p>
+        <p><strong>SMPTQ RYDHA </strong>-kec.mauk
+        kab.tangerang banten(2018 - 2021)</p>
+        <p><strong>Ponpes DAQU </strong>-tapos,
+        sukatani depok </p>
+      </section>
+      
+      <section id="kemampuan">
+        <h2>kemampuan</h2>
+        <p>
+          <span class="tag">mukbang</span>
+          <span class="tag">renang</span>
+          <span class="tag">palkur</span>
+          <span class="tag">gambar</span>
+          <span class="tag">beatbok</span>
+          <span class="tag">nulis</span>
+        </p>
+      </section>
+      
+      <section id="kontak">
+       <h2>kontak</h2>
+       <p>Email: 
+       <a href="askirisaipulam2@gmail.com">
+       askiri@example.com</a>
+       </p>
+       <p>
+         pertinjauan
+           portofolio</p>
+         <iframe class="frame" 
+         src="https://www.wikipedia.org" 
+         title="contoh iframe"></iframe>
+      </section>
+    </div>
+    
+    <div id="sidebar">
+      <h2>Tentang saya</h2>
+      <p>Saya suka belajar hal baru, teknologi, 
+      sekaligus praktek, dan suka membuat proyek
+      kecil untuk meningkatkan kemampuan coding
+      saga.</p>
+     <h3>Hobi</h3>
+     <ul>
+       <li>Membaca</li>
+       <li>Olahraga</li>
+     </ul>
+     <h3>Bahasa</h3>
+     <ul>
+       <li>Arab</li>
+       <li>Jawa</li>
+       <li>Indonesia</li>
+     </ul>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2025 Askiri S.A. - CV ini dibuat dengan
+    HTML, CSS, internal, dan Layout float
+  </footer>
+</body>
+</html>
